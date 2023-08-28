@@ -6,7 +6,7 @@ import Auth4Component from "../Page4";
 import Auth5Component from "../Page5";
 import Auth6Component from "../Page6";
 import Auth7Component from "../Page7";
-// import Uploadpic from "../Page8 ";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import CommonLanding from "../Landing/Post";
@@ -38,7 +38,7 @@ function AuthPage({ userData, setProgress }) {
         <Route path="/slots" element={<Auth6Component setProgress={setProgress} />} />
         <Route path="/laststep" element={<Auth7Component  setProgress={setProgress}/>} />
         <Route path="/homepage" element={<Post userData={userData} setProgress={setProgress} />} />
-        // <Route path='/pic' element={<Uploadpic userData={userData}/>}/>
+       
         <Route path="/userprof" element={<CheckProfile />} />
         <Route
           path="/chat"
