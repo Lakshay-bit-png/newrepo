@@ -121,7 +121,7 @@ function Auth5Component() {
  
   const redirectToPage6 = async () => {
     
-    navigate("/pic");
+    navigate("/collegedetails");
   };
   return (
     <>
